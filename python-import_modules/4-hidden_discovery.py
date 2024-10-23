@@ -2,7 +2,7 @@
 import hidden_4
 
 if __name__ == "__main__":
-    # Get all names defined in the module and filter out names starting with "__"
+ # Get all names defined in the module and filter out names starting with "__"
     names = dir(hidden_4)
     filtered_names = [name for name in names if not name.startswith("__")]
 
