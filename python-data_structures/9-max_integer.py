@@ -1,6 +1,10 @@
-#!/usr/bin/python3
-max_integer = __import__('9-max_integer').max_integer
-
-my_list = [1, 90, 2, 13, 34, 5, -13, 3]
-max_value = max_integer(my_list)
-print("Max: {}".format(max_value))
+def max_integer(my_list=[]):
+    if not my_list:
+        return None
+                    
+    max_value = my_list[0]  # Initialize max_value with t
+    for num in my_list:      # Iterate through each numb
+            if num > max_value:  # Compare with max_value
+                max_value = num   # Update max_value if 
+                                                        
+    return max_value
