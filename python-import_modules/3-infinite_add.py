@@ -1,16 +1,9 @@
 #!/usr/bin/python3
-import sys
-
 if __name__ == "__main__":
+    from sys import argv
     total = 0
-
- # Check if there are arguments
-    if len(sys.argv) == 1:
-        print(0)  # No arguments passed
+    a = len(argv)
+    for i in range(1, a):
+        total += int(argv[i])
     else:
-     # Sum the arguments, convert to integer
-        for arg in sys.argv[1:]:
-            total += int(arg)  # Convert argument to integer and add to total
-
-            print(total)  # Print the total sum
-
+        print(total)
