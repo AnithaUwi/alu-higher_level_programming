@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-a = 89
-b = 10
-a, b = b, a
-print("a={:d} - b={:d}".format(a, b))
+max_integer = __import__('9-max_integer').max_integer
+
+my_list = [1, 90, 2, 13, 34, 5, -13, 3]
+max_value = max_integer(my_list)
+print("Max: {}".format(max_value))
