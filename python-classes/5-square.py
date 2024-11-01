@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 
+
 """Square module"""
+
 
 class Square:
     """class def"""
+
     def __init__(self, size):
 
         """init square"""
@@ -12,6 +15,7 @@ class Square:
 
     @property
     def size(self):
+
         """get the current size '@' decoration"""
         return self.__size
 
@@ -29,10 +33,12 @@ class Square:
 
     def area(self):
         """squares"""
+
         return self.__size ** 2
 
     def my_print(self):
         """function that prints '#'"""
+
         for i in range(0, self.__size):
             [print("#", end="") for j in range(self.__size)]
             print("")

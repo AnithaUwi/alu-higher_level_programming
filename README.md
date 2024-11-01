@@ -1,2 +1,2 @@
 # alu-higher_level_programming
-first repository on highlevel programming classes
+ALU_HIGHER_LEVEL_PROGRAMMING
