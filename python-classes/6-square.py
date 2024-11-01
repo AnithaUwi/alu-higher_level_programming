@@ -1,15 +1,13 @@
 #!/usr/bin/python3
 """Square module"""
-
-
-
 class Square:
     """Class that defines a square"""
 
     def __init__(self, size=0, position=(0, 0)):
         """Initialize a square"""
-        self.size = size  # This will call the size setter
-        self.position = position  # This will call 
+        self.size = size
+        self.position = position
+
     @property
     def size(self):
         """Get the current size"""
